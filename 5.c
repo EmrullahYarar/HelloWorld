@@ -7,8 +7,8 @@ void HelloWorld(char HelloWorld[]){
 
 int main (){
 
-    char a[]="Hello World!\n";
-    HelloWorld(a);
+    char HW[]="Hello World!\n";
+    HelloWorld(HW);
 
     return 0;
 }
