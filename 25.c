@@ -5,7 +5,7 @@ int main(){
     char str[12] = "Hello World!";
     char *ptr = str;
 
-    printf("%s\n", ptr);
+    printf("%s\n", str);
 
     return 0;
 }
