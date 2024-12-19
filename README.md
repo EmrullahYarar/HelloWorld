@@ -1,2 +1,2 @@
 # HelloWorld
-Hello World c examples
+Hello World C language examples
