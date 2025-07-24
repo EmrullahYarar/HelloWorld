@@ -19,8 +19,8 @@ int main() {
                                                     printf("%c%c%c%c%c%c%c%c%c%c%c%c\n", q, w, e, r, t, u, i, o, p, a, s, x);
                                                     if (q == 'H' && w == 'e' && e == 'l' && r == 'l' && t == 'o' &&
                                                         u == ' ' && i == 'W' && o == 'o' && p == 'r' &&
-                                                        a == 'l' && s == 'd' && x == '!') {
-                                                        return 0;
+                                                        a == 'l' && s == 'd' && x == '!') {      
+                                                    return 0;                                                  
                                                     }
                                                 }
                                             }
@@ -34,6 +34,4 @@ int main() {
             }
         }
     }
-
-    return 0;
 }
