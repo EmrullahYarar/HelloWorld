@@ -15,20 +15,20 @@ Getting Started
 
 Clone the repository:
 
-git clone https://github.com/EmrullahYarar/HelloWorld.git
-cd HelloWorld
+  git clone https://github.com/EmrullahYarar/HelloWorld.git
+  cd HelloWorld
 
 Compile an example with GCC:
 
-gcc 1.c -o hello
+  gcc 1.c -o hello
 
 Run it on Linux or macOS:
 
-./hello
+  ./hello
 
 Run it on Windows:
 
-.\hello.exe
+  .\hello.exe
 
 You can replace 1.c with any numbered source file in the repository.
 
