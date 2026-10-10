@@ -5,39 +5,51 @@ A collection of alternative ways to write and print "Hello, World!" using the C 
 This repository explores different C syntax, standard library functions, data representations, and programming techniques through one of the simplest programs possible.
 About the Project
 
-The traditional Hello World program is usually written with a single printf call. However, C provides many other ways to produce the same output.
+The traditional Hello World program is usually written using a single printf call. However, C provides many other ways to produce the same output.
 
-Although every example produces the same or a similar result, the implementation may use a different feature or approach.
+Although every example produces the same or a similar result, each implementation may use a different C feature or programming technique.
+Requirements
 
-To compile the examples, you need a C compiler such as:
-
+To compile the examples, you need a C compiler such as GCC or Clang.
 Getting Started
 
 Clone the repository:
 
-  git clone https://github.com/EmrullahYarar/HelloWorld.git
-  cd HelloWorld
+git clone https://github.com/EmrullahYarar/HelloWorld.git
+cd HelloWorld
 
 Compile an example with GCC:
 
-  gcc 1.c -o hello
+gcc 1.c -o hello
 
 Run it on Linux or macOS:
 
-  ./hello
+./hello
 
 Run it on Windows:
 
-  .\hello.exe
+.\hello.exe
 
 You can replace 1.c with any numbered source file in the repository.
+Compiler Warnings
 
-During development, additional warnings can help identify potential problems.
+During development, additional compiler warnings can help identify potential problems:
 
-If you know anoter interesting way to implement Helo World in C feel free to contribute.
+gcc -std=c11 -Wall -Wextra -Wpedantic 1.c -o hello
 
-Some examples may intentionally use unconventional oroverly complicated techniques for ducational or experimental purpose.
+Contributing
+
+If you know another interesting way to implement Hello World in C, feel free to contribute.
+
+Please make sure that your implementation:
+
+Disclaimer
+
+Some examples may intentionally use unconventional or overly complicated techniques for educational or experimental purposes.
 
 These implementations are not necessarily recommended for production software.
+License
 
-Created by https://github.com/EmrullahYarar.
+This project is licensed under the MIT License. See the LICENSE file for details.
+Author
+Created by Emrullah Yarar.
