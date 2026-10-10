@@ -31,10 +31,6 @@ Run it on Windows:
 .\hello.exe
 
 You can replace 1.c with any numbered source file in the repository.
-Compile with Clang
-
-clang 1.c -o hello
-./hello
 
 During development, additional warnings can help identify potential problems.
 
